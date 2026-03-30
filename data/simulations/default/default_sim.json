@@ -1,0 +1,24 @@
+{
+    "app_version":[1,0,0],
+    "params":{
+        "width" : 6400,
+        "height" : 3600,
+        "bg": "placeholder_sim_bg",
+        "water":[],
+        "animals":{
+            "cerf":50,
+            "blaireau":50,
+            "coq":50,
+            "elan":50,
+            "lapin":50,
+            "ours":10,
+            "renard":10,
+            "sanglier":10,
+            "loup":10
+        },
+        "foods":{
+            "baies":300,
+            "herbe":50
+        }
+    }
+}

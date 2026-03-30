@@ -1,0 +1,10 @@
+{
+    "type": "normal",
+    "attributes": {
+        "name": "herbe",
+        "main_sprite": "TouffeHerbe_V1",
+        "base_energy": 30,
+        "hitbox": [[[-15,-15],[15,-15],[15,15]],[[-15,-15],[-15,15],[15,15]]],
+        "reduced_to_point_color":"olivedrab"
+    }
+}

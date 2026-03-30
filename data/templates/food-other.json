@@ -1,0 +1,10 @@
+{
+    "type": "normal",
+    "attributes": {
+        "name": "",
+        "main_sprite": "",
+        "base_energy": 1,
+        "hitbox": [],
+        "reduced_to_point_color":""
+    }
+}

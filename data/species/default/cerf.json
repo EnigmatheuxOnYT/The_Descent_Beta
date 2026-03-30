@@ -1,0 +1,58 @@
+{
+    "scientific_name": "Cervus elaphus",
+    "name_shortcut":"cerf",
+    "max_stamina": 1000,
+    "max_food_reserve": 2925000,
+    "max_hp": 1000,
+    "fov": "2*pi/3",
+    "view_dist": 400,
+    "scout_pattern":[0,0.25,0.5,0.75],
+    "personnality":{
+        "fearful":0.5,
+        "patient":0.6,
+        "eater":1,
+        "reproductive":1,
+        "sociable":0.5
+    },
+    "predators":["loup","ours"],
+    "foods":["baies","herbe"],
+    "diet":"Herbivore",
+    "has_meat":true,
+    "stamina_recovery_rate": 0.1,
+    "hitbox":[[[50,20],[-50,20],[-50,-20]],[[50,20],[50,-20],[-50,-20]]],
+    "reduced_to_point_color":"burlywood4",
+    "male":{
+        "name":"Cerf",
+        "name_shortcut":"cerf",
+        "energy_24h_kJ": 20000,
+        "reproduction_stamina": 450,
+        "energy_reproduction_kJ": 700,
+        "energy_max_kJ": 3600,
+        "maturity_days": 1.5,
+        "avg_speed": 1.2,
+        "sprint_speed": 6.5,
+        "sprint_time": 15,
+        "energy_per_m_walk_kJ": 1.2,
+        "avg_size":2.4,
+        "avg_mass":250,
+        "life_expectancy_days":100
+
+    },
+    "female":{
+        "name":"Biche",
+        "name_shortcut":"biche",
+        "energy_24h_kJ": 17000,
+        "reproduction_stamina": 300,
+        "energy_reproduction_kJ": 525,
+        "energy_max_kJ": 2925,
+        "maturity_days": 1.5,
+        "avg_speed": 0.9,
+        "sprint_speed": 6.75,
+        "sprint_time": 12,
+        "energy_per_m_walk_kJ": 0.975,
+        "avg_size":2.1,
+        "avg_mass":150,
+        "life_expectancy_days":100
+
+    }
+}

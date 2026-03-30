@@ -1,0 +1,9 @@
+{
+    "type":"meat",
+    "attributes":{
+        "name":"meat (generic)",
+        "main_sprite":"Viande_2",
+        "hitbox":[[[-30,-30],[30,-30],[30,30]],[[-30,-30],[-30,30],[30,30]]],
+        "reduced_to_point_color":"burlywood4"
+    }
+}

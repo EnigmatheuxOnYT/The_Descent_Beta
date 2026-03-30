@@ -1,0 +1,40 @@
+Projet : The Descent
+Auteurs : Ahmed-Adam REZKALLAH, Noé SAMUEL
+==========================================
+
+Ici se trouvent les différentes informations à savoir concernant la nature du code, comme demandé dans le règlement du concours (article 4.5).
+
+- Degré de création originale :
+    - Les personnes ayant travaillé sur le projet sont Ahmed-Adam Rezkallah et Noé Samuel en tant que membres du projet, avec l'aide de Clément Roux--Bénabou pour le codage de certaines parties du projet et pour tester le projet.
+    - Toute contribution extérieure de la part de Clément a été relue, vérifiée et adaptée par notre équipe avant d'être intégrée et est mentionnée directement dans l'en-tête des fichiers concernés.
+    - Les fichiers du projet contiennent uniquement du code rédigé par les personnes mentionnées ci-dessus.
+    - L'idée principale du projet est entièrement originale et a été proposée par Ahmed-Adam Rezkallah, après avoir vu la première vidéo de la liste ci-dessous.
+    - Le thème du projet s'inspire notamment des vidéos suivantes :
+            - https://www.youtube.com/watch?v=PiWgzThhF9M (J'ai codé l'évolution de créatures qui grimpent - Code BH)
+            - https://www.youtube.com/watch?v=0ZGbIKd0XrM (Simulation Natural Selection - Primer)
+            - https://www.youtube.com/watch?v=qVOjXQUzOJw (J'ai codé une simulation pour comprendre l'égoïsme - Code BH)
+
+- Sources Externes :
+    - Documentation pygame : https://www.pygame.org/docs/
+    - Documentation zipfile : https://docs.python.org/3/library/zipfile.html
+    - Fichiers sources de python (.py et .pyi)
+    - Article sur le fonctionnement des méthodes magiques : https://www.geeksforgeeks.org/python/dunder-magic-methods-python/
+
+- Exploitation de code existant :
+    - Quelques classes du projet "Kage no Michi" pour les Trophées NSI 2025, réalisées par Ahmed-Adam Rezkallah et Clément Roux--Bénabou, notamment pour le système d'état.
+
+- Modalités d'utilisation de l'intelligence artificielle :
+    - L'usage de l'IA a été limité, réfléchi et exclusivement pédagogique :
+        - Seuls deux fichiers contiennent des portions de code directement générées par ChatGPT ("sources/file_type_manager.py" et "test/test_multiprocessing/chargement.py")
+        - Dans tous les autres fichiers du projet, aucun code généré par IA n'a été copié-collé. Nous avons uniquement demandé des conseils de fonctionnement ou d'utilisation de
+          bibliothèques, l'implémentation finale est toujours de notre main.
+
+    - Nous n'avons eu recours à aucune intelligence artificielle (ni conseil ni code) pour les fichiers suivants, dont les idées et implémentations sont entièrement originales :
+        - "sources/utils.py"
+        - "sources/simulation.py"
+        - "sources/environnement/ia/main.py"
+
+    - Justification de l'usage de l'IA :
+        - L'IA a été utilisée uniquement pour gagner en rapidité et en clarté sur des points techniques que nous ne maîtrisions pas encore (fonctionnement de bibliothèques, interactions
+          avec l'OS ou gestion de fichiers externes). Cela nous a permis de nous concentrer sur la logique du projet plutôt que sur la syntaxe de modules peu documentés. Nous n'avons
+          jamais utilisé l'IA pour concevoir l'architecture, les algorithmes ou les fonctionnalités centrales du simulateur.

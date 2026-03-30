@@ -1,0 +1,9 @@
+{
+    "type":"meat",
+    "attributes":{
+        "name":"",
+        "main_sprite":"",
+        "hitbox":[],
+        "reduced_to_point_color":""
+    }
+}

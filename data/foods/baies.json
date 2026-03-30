@@ -1,0 +1,15 @@
+{
+    "type": "fruit",
+    "attributes": {
+        "name": "baies",
+        "scientific_name":"Vaccinium myrtillus",
+        "biome":"Forets",
+        "main_sprite": "ArbusteBaies_V3",
+        "fruit_sprite": "Baie_V2",
+        "fruit_pos": [[34, 27],[48, 28],[30, 40],[42, 38],[54, 39],[66, 39],[35, 50],[47, 48],[59, 50],[49, 59]],
+        "regen_frames": 1200,
+        "base_energy": 30,
+        "hitbox": [[[-30,-30],[30,-30],[30,30]],[[-30,-30],[-30,30],[30,30]]],
+        "reduced_to_point_color":"dark green"
+    }
+}

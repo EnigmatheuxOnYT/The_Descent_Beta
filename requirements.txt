@@ -1,0 +1,3 @@
+#Librairies utilisées dans le projet :
+pygame==2.6.1
+matplotlib>=3.10.0

@@ -1,0 +1,58 @@
+{
+    "scientific_name": "",
+    "name_shortcut":"",
+    "max_stamina": 0,
+    "max_food_reserve": 0,
+    "max_hp": 0,
+    "fov": "0",
+    "view_dist": 0,
+    "scout_pattern":[0,0,0,0],
+    "personnality":{
+        "fearful":0,
+        "patient":0,
+        "eater":0,
+        "reproductive":0,
+        "sociable":0
+    },
+    "predators":[],
+    "preys": [],
+    "foods": [],
+    "diet":"",
+    "has_meat":false,
+    "stamina_recovery_rate": 0,
+    "hitbox":[],
+    "reduced_to_point_color":"",
+    "male":{
+        "name":"",
+        "name_shortcut":"",
+        "energy_24h_kJ": 1,
+        "reproduction_stamina": 1,
+        "energy_reproduction_kJ": 1,
+        "energy_max_kJ": 1,
+        "maturity_days": 1,
+        "avg_speed": 1,
+        "sprint_speed": 1,
+        "sprint_time": 1,
+        "energy_per_m_walk_kJ": 1,
+        "avg_size":1,
+        "avg_mass":1,
+        "life_expectancy":1
+
+    },
+    "female":{
+        "name":"",
+        "name_shortcut":"",
+        "energy_24h_kJ": 1,
+        "reproduction_stamina": 1,
+        "energy_reproduction_kJ": 1,
+        "energy_max_kJ": 1,
+        "maturity_days": 1,
+        "avg_speed": 1,
+        "sprint_speed": 1,
+        "sprint_time": 1,
+        "energy_per_m_walk_kJ": 1,
+        "avg_size":1,
+        "avg_mass":1,
+        "life_expectancy":1
+    }
+}

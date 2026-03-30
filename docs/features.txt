@@ -1,0 +1,150 @@
+Projet : The Descent
+Auteurs : Ahmed-Adam REZKALLAH, Noé SAMUEL
+==========================================
+
+Vous trouverez, ci-dessous, une liste des différentes fonctionnalités implémentées dans notre projet :
+
+1. Moteur de simulation
+
+* Simulation d'écosystème en temps réel dans un biome forestier
+* Évolution autonome des populations sans limite théorique d'individus
+* Système d'accélération du temps (vitesses réglables)
+* Mise en pause et reprise de la simulation
+* Déplacements des animaux avec différents paramètres
+* Gestion des collisions entre entités (animaux et nourriture)
+* Cycle jour/nuit (visuel)
+* Système d'énergie, vieillissement et mort
+* Système de reproduction sexuée avec naissance dynamique des individus
+* Système de repos permettant de récupérer énergie et vitalité
+* Régénération dynamique des ressources alimentaires (plantes, poissons, insectes)
+* Système d'optimisation dynamique de l'actualisation des animaux pour améliorer les performances
+
+2. Animaux et intelligence artificielle
+
+* 9 espèces animales (herbivores, carnivores et omnivores)
+* Système de chaîne alimentaire configurable via fichiers JSON
+* IA comportementale basée sur objectifs :
+  * se nourrir
+  * fuir un prédateur
+  * chasser une proie
+  * se reproduire
+  * former des groupes
+  * se reposer
+* Système de perception :
+  * champ de vision (angle + distance)
+  * détection des proies, prédateurs, nourriture et partenaires
+* Système de caractéristiques individuelles :
+  * énergie, vitalité, âge
+  * vitesse maximale
+  * distance et angle de vision
+  * taille et poids
+  * régime alimentaire
+  * génération
+* Système de personnalités :
+  * fearful, patient, eater, reproductive, sociable
+* Reproduction sexuée (mâle / femelle)
+* Croissance des individus (jeunes => adultes)
+* Système de mutations génétiques sur plusieurs paramètres :
+  * énergie maximale
+  * vitalité
+  * vitesse
+  * distance de vision
+
+3. Interface et outils d'observation
+
+* Caméra libre avec déplacement et zoom
+* Suivi d'un animal par clic
+* Affichage avancé activable :
+  * champ de vision (FOV)
+  * hitbox
+  * vecteur vitesse
+  * trajectoire
+* Panneau de profil détaillé d'un animal :
+  * informations biologiques et statistiques
+  * génération, âge, état, objectif actuel
+* Tableau de bord en simulation :
+  * statistiques globales (vivants, morts, espèces, temps simulé)
+  * espèce la plus développée
+  * accès aux paramètres et contrôles
+* Menu principal complet :
+  * lancer une simulation
+  * charger une simulation
+  * mode personnalisé
+  * paramètres
+  * crédits
+  * quitter
+* Mode plein écran configurable
+* Écran de chargement au lancement
+
+4. Analyse de données
+
+* Système d'analyse de simulation à un instant donné
+* Génération automatique de graphiques, histogrammes et diagrammes (Matplotlib)
+* Téléchargement des visualisations
+* Export des données en CSV contenant :
+  * espèce, sexe
+  * temps de naissance et de mort
+  * âge
+  * caractéristiques génétiques
+  * génération
+  * paramètres comportementaux
+
+5. Sauvegarde et partage
+
+* Sauvegarde complète d'une simulation (.sim)
+* Chargement de simulations sauvegardées
+* Export des paramètres (.simstat)
+* Possibilité de nommer les sauvegardes
+* Partage simple des simulations entre utilisateurs via fichier
+
+6. Mode personnalisé et extensibilité
+
+* Configuration avancée de la simulation :
+  * nombre d'animaux par espèce
+  * caractéristiques des espèces
+  * taille de la simulation
+* Système de création et modification d'espèces via fichiers JSON
+* Système de création de ressources alimentaires via JSON
+* Templates fournis pour faciliter l'extension
+* Configuration des interactions (proies / prédateurs) via données
+
+7. Architecture et aspects techniques
+
+* Projet développé en Python (> 8000 lignes de code)
+* Programmation orientée objet
+* Organisation modulaire (simulation, environnement, IA, interface, fichiers)
+* Utilisation de bibliothèques :
+  * pygame (rendu graphique et interactions)
+  * matplotlib (analyse de données)
+* Système de chargement de données JSON
+* Formats de fichiers personnalisés :
+  * .sim (simulation)
+  * .simstat (statistiques)
+* Système d'export CSV
+* Gestion des erreurs et codes de sortie
+* Compatibilité multi-plateforme :
+  * Windows
+  * macOS (fonctionnalité visuelle partielle)
+  * Linux (fonctionnalité visuelle partielle)
+
+8. Outils et fonctionnalités avancées
+
+* Système de vérification d'environnement (setup check) :
+  * vérifie OS, version Python, dépendances
+  * propose installation automatique si nécessaire
+* Système de lancement par arguments (Windows) :
+  * chargement direct d'une simulation ou configuration
+  * gestion des erreurs de fichiers
+* Système de crédits dynamique :
+  * moteur d'interprétation de balises (couleur, taille, format)
+  * affichage défilant personnalisé
+
+---
+
+Améliorations prévues (post après les Trophées NSI)
+
+* Ajout de nouveaux biomes
+* Système de mutations rares
+* Ajout de maladies et événements
+* Amélioration des performances
+* Enrichissement des comportements IA

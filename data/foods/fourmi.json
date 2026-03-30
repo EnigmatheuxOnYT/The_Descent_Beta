@@ -1,0 +1,10 @@
+{
+    "type": "normal",
+    "attributes": {
+        "name": "fourmi",
+        "main_sprite": "",
+        "base_energy": 10,
+        "hitbox": [[[-5,5],[5,5],[5,-5]],[[5,-5],[-5,-5],[-5,5]]],
+        "reduced_to_point_color":"black"
+    }
+}

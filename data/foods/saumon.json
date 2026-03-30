@@ -1,0 +1,10 @@
+{
+    "type": "fish",
+    "attributes": {
+        "name": "saumon",
+        "main_sprite": "Saumon",
+        "base_energy": 50,
+        "hitbox": [[[-10,25],[10,25],[10,-25]],[[10,-25],[-10,-25],[-10,25]]],
+        "reduced_to_point_color":"salmon"
+    }
+}

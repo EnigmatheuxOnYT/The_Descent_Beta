@@ -1,0 +1,133 @@
+<a FONT=40,COLOR=(255,255,255)>The Descent</a>
+<a FONT=22,COLOR=(170,170,170)>Simulateur de sélection naturelle</a>
+
+<a>_________________</a>
+
+<a FONT=30,COLOR=(255,255,255)>SIMULATION ET IA</a>
+
+<b COLOR="yellow">Architecture générale du projet et organisation des tâches</b>
+Ahmed-Adam Rezkallah
+
+<b COLOR="yellow">Moteur de simulation et environnement</b>
+Ahmed-Adam Rezkallah, Noé Samuel
+
+<b COLOR="yellow">IA des animaux</b>
+Ahmed-Adam Rezkallah, Noé Samuel
+
+<b COLOR="yellow">Système de mutations</b>
+Ahmed-Adam Rezkallah, Noé Samuel
+
+<b COLOR="yellow">Structure des données (espèces, nourritures, templates)</b>
+Ahmed-Adam Rezkallah, Noé Samuel
+
+<a>_________________</a>
+
+<a FONT=30,COLOR=(255,255,255)>INTERFACE ET GESTION DES DONNEES</a>
+
+<b COLOR="yellow">Menu principal et système de boutons</b>
+Noé Samuel, Ahmed-Adam Rezkallah
+
+<b COLOR="yellow">Système de sauvegarde et chargement</b>
+Noé Samuel
+
+<b COLOR="yellow">Export des données en CSV</b>
+Noé Samuel
+
+<b COLOR="yellow">Analyse des simulations et graphiques</b>
+Noé Samuel
+
+<b COLOR="yellow">Interface de suivi des animaux et tableau de bord</b>
+Ahmed-Adam Rezkallah, Noé Samuel
+
+<b COLOR="yellow">Gestion de la nomenclature et organisation du dossier technique</b>
+Ahmed-Adam Rezkallah
+
+<a>_________________</a>
+
+<a FONT=30,COLOR=(255,255,255)>GRAPHISMES ET INTERFACE UTILISATEUR</a>
+
+<b COLOR="yellow">Direction artistique</b>
+Ahmed-Adam Rezkallah
+
+<b COLOR="yellow">Sprites, icônes, boutons et interface</b>
+Ahmed-Adam Rezkallah
+
+<b COLOR="yellow">Maquettes et mise en page de l'interface</b>
+Ahmed-Adam Rezkallah
+
+<a>_________________</a>
+
+<a FONT=30,COLOR=(255,255,255)>DOCUMENTATION ET PRESENTATION</a>
+
+<b COLOR="yellow">Documentation du projet</b>
+Ahmed-Adam Rezkallah
+
+<b COLOR="yellow">Vidéo de présentation</b>
+Ahmed-Adam Rezkallah
+
+<b COLOR="yellow">Vidéos d'avancement</b>
+Ahmed-Adam Rezkallah
+
+<a>_________________</a>
+
+<a FONT=30,COLOR=(255,255,255)>AIDE, TESTS ET IDEES ORIGINALES</a>
+
+<b COLOR="yellow">Idée originale</b>
+Ahmed-Adam Rezkallah
+
+<b COLOR="yellow">Idée et source originale du système d'état</b>
+Clément Roux--Bénabou, Ahmed-Adam Rezkallah
+
+<b COLOR="yellow">Idées pour certains aspects techniques du moteur de simulation</b>
+Clément Roux--Bénabou
+
+<b COLOR="yellow">Idée et aide pour l'implémentation du système d'objectifs de l'IA</b>
+Clément Roux--Bénabou
+
+<b COLOR="yellow">Aides et conseils</b>
+Clément Roux--Bénabou
+
+<b COLOR="yellow">Bêta-testeurs</b>
+Clément Roux--Bénabou, Jean Santolaria--Philippe
+
+<a>_________________</a>
+
+<a FONT=30,COLOR=(255,255,255)>OUTILS UTILISES</a>
+
+Python
+Pygame
+Matplotlib
+Visual Studio Code
+GitHub
+Notion
+Discord
+Toggl
+Google Docs
+Miro
+
+<b FONT=30,COLOR="white">POLICES D'ECRITURE</b>
+
+The Foregen (police du logo)
+Bahnschrift (comme police principale)
+
+<a FONT=30,COLOR=(255,255,255)>INSPIRATIONS</a>
+
+Code BH
+Primer
+
+<a>_________________</a>
+
+<a FONT=30,COLOR=(255,255,255)>REMERCIEMENTS</a>
+
+<b COLOR="yellow">Professeurs de NSI</b>
+M. Coolen
+M. Djahnit
+
+<b COLOR="yellow">Elèves</b>
+Clément Roux--Bénabou
+Jean Santolaria--Philippe
+
+<**>
+Merci d'avoir utilisé The Descent.
+Projet réalisé dans le cadre des Trophées NSI 2026.
+</**>

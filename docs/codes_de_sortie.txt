@@ -1,0 +1,12 @@
+Projet : The Descent
+Auteurs : Ahmed-Adam REZKALLAH, Noé SAMUEL
+==========================================
+
+0   : OK     - Le programme s'est terminé normalement
+200 : ERREUR - Version de python inférieure à 3.10.
+201 : ERREUR - Version de pygame différente de 2.6.1.
+202 : ERREUR - Bibliothèque pygame non installée.
+203 : ERREUR - Échec de l'installation de secours de pygame 2.6.1 (l'erreur devrait être précisée)
+204 : ERREUR - Version de matplotlib différente de 3.10.0.
+205 : ERREUR - Bibliothèque matplotlib non installée.
+206 : ERREUR - Échec de l'installation de secours de matplotlib 3.10.0 (l'erreur devrait être précisée)

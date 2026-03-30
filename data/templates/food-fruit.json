@@ -1,0 +1,15 @@
+{
+    "type": "fruit",
+    "attributes": {
+        "name": "",
+        "scientific_name":"",
+        "biome":"",
+        "main_sprite": "",
+        "fruit_sprite": "",
+        "fruit_pos": [],
+        "regen_frames": 1,
+        "base_energy": 1,
+        "hitbox": [],
+        "reduced_to_point_color":""
+    }
+}

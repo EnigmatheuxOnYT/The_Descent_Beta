@@ -1,0 +1,56 @@
+Projet : The Descent
+Auteurs : Ahmed-Adam REZKALLAH, Noé SAMUEL
+==========================================
+
+Le projet utilise les librairies suivantes :
+
+Librairies utilisées dans le projet (hors tests) :
+- Librairies standard (stdlibs) :
+    - sys
+    - os
+    - platform
+    - pip
+    - warnings
+    - traceback
+    - json
+    - csv
+    - pickle
+    - pathlib
+    - shutil
+    - zipfile
+    - typing
+    - math
+    - enum
+    - time
+    - random
+    - threading
+    - multiprocessing
+    - queue
+    - winreg (Windows uniquement)
+    - tkinter (Windows uniquement)
+    - Cocoa (MacOS uniquement)
+- Librairies à installer (via "pip install -r requirements.txt") :
+    - pygame
+    - matplotlib
+
+Librairies utilisées dans les tests :
+- Librairies standard (stdlibs) :
+    - sys
+    - os
+    - json
+    - csv
+    - pickle
+    - typing
+    - math
+    - enum
+    - time
+    - threading
+    - multiprocessing
+    - tkinter (Windows uniquement)
+    - Cocoa (MacOS uniquement)
+- Librairies à installer (via "pip install -r requirements_tests.txt") :
+    - pygame
+    - matplotlib
+    - pillow
+    - numba
+    - numpy

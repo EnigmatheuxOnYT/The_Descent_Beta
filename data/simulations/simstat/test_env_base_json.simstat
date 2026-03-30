@@ -1,0 +1,15 @@
+{
+    "app_version":[1,0,0,1],
+    "params":{
+        "width" : 1280,
+        "height" : 720,
+        "bg": "placeholder_sim_bg",
+        "water":[],
+        "animals":{
+            "cerf":20
+        },
+        "foods":{
+            "basic":100
+        }
+    }
+}
