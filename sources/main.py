@@ -46,7 +46,6 @@ class Main(Runable): #Classe générale du simulateur
         self.run_fcts(RUNNING_STATES,self.update)
         quit()
 
-
 if __name__ == "__main__":
     if os_name == "Darwin":
         #à mettre avant le code qu'on veut run en background
